@@ -5,54 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML && CSS - INICIO DE TUDO ~</title>
-    
-    <style>
-        body{
-            background-color: rgb(1, 1, 56);
-            color: white;
-            margin: 0px;
-            padding: 0px;
-            text-align: center;
-        }
-           .sobre{
-            font-family: cursive;
-            font-size: 35px;
-        }
-        div{
-            font-size: 40px;
-        }
-        
-    </style>
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
         <header>
-            <div class="sobre">Wellington Barbosa de Carvalho</div>
-           <h2>Indice</h2>
-           <a href="#">sobre</a>
-           <a href="#">Contato</a>
-           <a href="#">loguin</a>
+            <h1>Índice</h1>
+           <a href="#" class="indice">sobre</a>
+           <a href="#" class="indice">Contato</a>
+           <a href="#" class="indice">loguin</a>
+           <p  class="paragrafo" id="meuNome" >Wellington Barbosa de Carvalho</p>
         </header>
             <article>
-                <img src="souTryber.jpg" alt="foto minha sentado olhando reto" id="minhaFoto">
-                <p>
-                    ~ Pensativo antes de entrar na Trybe ..
-                </p>
+            <div id="container">
+                <div class="blocos">
+                    <img src="souTryber.jpg" alt="minha foto sentado olhando reto" id="minhaFoto">
+                    <br>
+                
+                    Olá mundo, tudo bem? sou Wellington, moro em São Paulo, SP e estou no caminho de aprendizado eterno que é querer se tornar um dev.
+                    
+                    <p class="paragrafo" id="comentarioFoto">
+                        ~ nessa foto estou pensativo antes de entrar na Trybe ~
+                    </p>
+                </div>
+                
+            </div>
             </article>
-                <section>
-                    <div class="sobre">
-                        Olá mundo, tudo bem? sou Wellington, moro em São Paulo, SP e estou no caminho de aprendizado eterno que é querer se tornar um dev. 
-                    </div>
-                </section>
                 <ul>
                     <li>Paciente</li>
                     <li>Amo muito TECNOLOGIA em geral</li>
+                    <li>A vida é um aprendizado constante.</li>
                     <li>Possibilidade de trabalho remoto</li>
                 </ul>
                 <section>
-                    <a href="#minhaFoto">Esse sou eu ;)</a>
-                    <a href="https://visaolibertaria.com/" target="_blank">Esse é o visão libertária, sua fonte de informação descentralizada e distribuída.</a>
+                    <a href="#minhaFoto" class="indice">Esse sou eu ;)</a>
+                    <a href="https://visaolibertaria.com/" target="_blank" class="indice">Esse é o visão libertária, sua fonte de informação descentralizada e distribuída.(Opens new window)</a>
                 </section>
+                <footer>
+                    <div id="footer">
+                        página criada e desenvolvida por Wellington Barbosa de Carvalho.
+                    </div>
+                </footer>
     </main>
 </body>
 </html>
