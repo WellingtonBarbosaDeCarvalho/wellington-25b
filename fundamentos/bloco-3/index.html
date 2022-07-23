@@ -5,51 +5,62 @@
     <meta name="viewport" content="width=device-width" />
     <title>STOMATOPODA - Pequeno e mortal</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Stardos+Stencil:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <main>
         <header>
             <nav>
             <ul>
-                <li class="links"><a href="#">Página Inicial</a></li>
-                <li class="links"><a href="#">Sobre</a></li>
-                <li class="links"><a href="#">Contato</a></li>
+                <li><a href="#" class="links">Página Inicial</a></li>
+                <li><a href="#" class="links">Sobre</a></li>
+                <li><a href="#"  class="links">Contato</a></li>
             </ul>
             </nav>
             <h1>Soco a 80km/h: Conheça o Stomatopoda.</h1>
         </header>
         <article>
-            <ul>
-                <li>Nome Científico : Stomatopoda (por exemplo, Odontodactylus scyllarus )</li>
-                <li>Outros nomes : Stomatopod, gafanhoto do mar, divisor de polegar, assassino de camarão</li>
-                <li>Características distintivas : Olhos montados em hastes móveis que podem se mover independentemente um do outro</li>
-                <li>Tamanho médio : 10 centímetros (3,9 pol.)</li>
-                <li>Dieta : Carnívora</li>
-                <li>Tempo de vida : 20 anos</li>
-                <li>Habitat : Ambientes marinhos tropicais e subtropicais rasos</li>
-                <li>Status de Conservação : Não avaliado</li>
-                <li>Reino : Animalia</li>
-                <li>Filo : Artrópodes</li>
-                <li>Subfilo : Crustacea</li>
-                <li>Classe : Malacostraca</li>
-                <li>Ordem : Stomatopoda</li>
-                <li>Curiosidade : Um ataque de uma garra de camarão mantis é tão forte que pode quebrar o vidro do aquário.</li>
+            <ul class="listaUl">
+                <li><span class="lista">Científico :</span> Stomatopoda (por exemplo, Odontodactylus scyllarus )</li>
+                <li><span class="lista">Outros nomes :</span> Stomatopod, gafanhoto do mar, divisor de polegar, assassino de camarão</li>
+                <li><span class="lista">Características distintivas :</span> Olhos montados em hastes móveis que podem se mover independentemente um do outro</li>
+                <li><span class="lista">Tamanho médio :</span> 10 centímetros (3,9 pol.)</li>
+                <li><span class="lista">Dieta :</span> Carnívora</li>
+                <li><span class="lista">Tempo de vida :</span> 20 anos</li>
+                <li><span class="lista">Habitat :</span> Ambientes marinhos tropicais e subtropicais rasos</li>
+                <li><span class="lista">Status de Conservação :</span> Não avaliado</li>
+                <li><span class="lista">Reino :</span> Animalia</li>
+                <li><span class="lista">Filo :</span> Artrópodes</li>
+                <li><span class="lista">Subfilo :</span> Crustacea</li>
+                <li><span class="lista">Classe :</span> Malacostraca</li>
+                <li><span class="lista">Ordem :</span> Stomatopoda</li>
+                <li><span class="lista">Curiosidade :</span> Um ataque de uma garra de camarão mantis é tão forte que pode quebrar o vidro do aquário.</li>
             </ul>
-            <div class="fontes"><a href="https://www.greelane.com/pt/ci%C3%AAncia-tecnologia-matem%C3%A1tica/animais-e-natureza/mantis-shrimp-facts-4582442" target="_blank" class="links">Site: GreenLane(opens new tab)</a></div>
+        <nav>
+            <ul>
+            <li class="fontes"><a href="https://www.greelane.com/pt/ci%C3%AAncia-tecnologia-matem%C3%A1tica/animais-e-natureza/mantis-shrimp-facts-4582442" target="_blank" class="links">Site: GreenLane(opens new tab)</a></li>
+            </ul>
+        </nav>
             <section id="artigo">
                 <h2>STOMATOPODA e o SOCO mais forte do reino animal !</h2>
                 <img src="stomatopoda.jpg" alt="" class="imagemStomatopoda">
-                <p>
+                <p id="paragrafoArtigo">
                     A força de um soco do camarão mantis é de 1500 newtons ou cerca de 152 quilos, 
                     enquanto o soco médio de um ser humano está na casa dos 3300 newtons ou 336 quilos. Ou seja, 
                     eles são muito menores que a gente, mas dão socos com a metade da nossa força. 
                     <span id="nomeCientifico">Nome cientifico: Odontodactylus scyllarus</span>
                 </p>
-                <p class="fontes"><a href="https://www.hypeness.com.br/2021/08/camarao-mantis-o-animal-com-o-soco-mais-potente-da-natureza-capaz-de-destruir-aquarios/" class="links">Hypeness(opens new tab)</a></p>
+            <nav>
+                <ul>
+                <li class="fontes"><a href="https://www.hypeness.com.br/2021/08/camarao-mantis-o-animal-com-o-soco-mais-potente-da-natureza-capaz-de-destruir-aquarios/" class="links" target="_blank">Site: Hypeness(opens new tab)</a></li>
+                </ul>
+            </nav>
             </section>
-                <section>
-                    <img src="stomatopoda[3].jpeg" alt="" class="imagemStomatopoda">
+                <section id="artigoDois">
                     <h2>Uma visão de dar inveja !</h2>
+                    <img src="stomatopoda[3].jpeg" alt="" class="imagemStomatopoda" id="stomatopodaDois">
                     <p>
                         Os cientistas identificaram uma conexão importante com uma unidade chamada lóbula, 
                         que coleta informações visuais processadas por outras partes do cérebro e as converte em algo significativo,
@@ -63,15 +74,19 @@
                         e fornece informações a ele sugere que o processamento olfativo pode ocorrer no contexto de memórias visuais já estabelecidas”,
                         disse um dos autores do estudo, o neurocientista Nicholas Strausfeld, da Universidade do Arizona (EUA).
                     </p>
-                    <p class="links"><a href="https://noticias.ambientebrasil.com.br/clipping/2019/12/03/155825-estudo-pode-ter-descoberto-por-que-o-camarao-mantis-tem-a-visao-mais-absurda-do-reino-animal.html" class="links">AmbienteBrasil(opens new tab)</a></p>
+                <ul>
+                    <li>
+                        <a href="https://noticias.ambientebrasil.com.br/clipping/2019/12/03/155825-estudo-pode-ter-descoberto-por-que-o-camarao-mantis-tem-a-visao-mais-absurda-do-reino-animal.html" class="links" target="_blank">Site: AmbienteBrasil(opens new tab)</a>
+                    </li>
+                </ul>
                 </section>
-                <section>
+                <section id="video">
                     <h2>Segue um video do Stomatopoda em ação</h2>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/E0Li1k5hGBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </section>
-                <foote>
+                <footer>
                     <p>Conteúdo compilado por Wellington Barbosa de Carvalho, 2022"</p>
-                </foote>
+                </footer>
         </article>
     </main>
   </body>
