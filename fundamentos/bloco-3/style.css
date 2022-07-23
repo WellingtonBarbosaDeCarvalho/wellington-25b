@@ -13,7 +13,7 @@ nav{
 .links{
     text-decoration: none;
     color: white;
-    background-color: rgb(8, 8, 75);
+    background-color: rgb(0, 0, 66);
     padding: 10px;
     font-weight: bold;
     border-radius: 8px;
@@ -41,7 +41,7 @@ article{
 .listaUl{
     text-align: center;
     padding-top: 85px;
-    background-color: rgb(8, 8, 75);
+    background-color: rgb(0, 0, 66);
     height: 650px;
     border-radius: 200px;
 }
