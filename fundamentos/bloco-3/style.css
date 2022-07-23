@@ -6,8 +6,8 @@ body{
     text-align: center;
     font-family: 'Stardos Stencil', cursive;
 }
-nav{
-    background-color: rgb(0, 0, 66);;
+header nav{
+    background-color: rgb(3, 3, 78);;
     border-radius: 8px;
 }
 .links{
@@ -41,7 +41,7 @@ article{
 .listaUl{
     text-align: center;
     padding-top: 85px;
-    background-color: rgb(0, 0, 66);
+    background-color: rgb(2, 2, 61);
     height: 600px;
     border-radius: 215px;
 }
@@ -51,7 +51,8 @@ article{
 }
 #stomatopodaDois{
     margin-top: 35px;
-    margin-bottom: 35px;
+    margin-bottom: 5px;
+    width: 400px;
 }
 #artigo, #artigoDois{
     max-width: 49%;
@@ -59,6 +60,7 @@ article{
     float: left;
     font-family: monospace;
     background-color: rgb(0, 0, 66);
+    border-radius: 9px;
 }
 h2{
     margin-bottom: 30px;
