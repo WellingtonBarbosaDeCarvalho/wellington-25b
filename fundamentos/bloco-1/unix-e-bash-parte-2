@@ -1,0 +1,80 @@
+//Vamos continuar explorando os comandos do UNIX.
+Se você já tem familiaridade com o ambiente UNIX, o terminal e tudo mais, que tal ajudar outras
+pessoas a tirar as dúvidas? Abra uma videochamada, se disponibilize no Slack e vamos colaborar!
+Agora, se você ainda não está confiante nas suas habilidades jedi com a tela preta,
+vamos praticar com vários exercícios para que você possa ver na prática
+como os comandos do UNIX podem ser úteis!
+
+
+//Conhecer variáveis de ambiente e saber como usá-las no seu código é uma das principais
+habilidades que você irá usar para trazer flexibilidade e segurança em seu código. 
+//Imagine que você precisa fazer um script que se conecte com uma máquina remota, 
+e precise de usuário e senha. Você colocaria a senha direto no script? 🤔
+//Quando se trabalha usando o terminal, cada comando que você digita é executado dentro de um processo.
+//Então é importante saber como você pode se comunicar com tais processos quando, por exemplo,
+quiser terminar a execução de algum que está travado. 🔫
+//Conhecer sobre permissões é uma outra habilidade importante para garantir que os arquivos 
+que você manipula na máquina (códigos, configurações, etc) 
+não sejam alterados ou executados por pessoas indesejadas. 🔐
+
+//Considere o arquivo nomes.txt para os exemplos a seguir
+# Seu conteúdo inicial é:
+Ana
+Maria
+João
+
+# O > redireciona a saída padrão para um arquivo, sendo assim
+# caso haja algum conteúdo no arquivo, ele será substituído
+
+cat > nomes.txt
+# Digite o nome "Amanda" e encerre o cat (Ctrl + D)
+
+cat nomes.txt
+# Resultado
+Amanda
+
+# O >> anexa a saída padrão a um arquivo. Sendo assim, ele adiciona
+# o que for digitado ao final do arquivo em questão
+
+cat >> nomes.txt
+# Digite o nome "Fernanda", depois `enter` e o nome "Fabiano", e encerre o cat (Ctrl + D)
+
+cat nomes.txt
+# Resultado
+Amanda
+Fernanda
+Fabiano
+
+# O | canaliza a saída do primeiro comando para a entrada do segundo,
+# dessa forma conseguimos realizar comandos de forma sucessiva
+
+# Considere que queremos uma lista com todos os nomes que contenham
+# a letra "F" e que nosso resultado esteja em ordem alfabética
+# Para isso podemos realizar o comando abaixo
+
+grep F nomes.txt | sort
+# Resultado
+Fabiano
+Fernanda
+/////
+/////
+///// comandos do dia 
+
+comando > arquivo --> redireciona a saída padrão para um arquivo.
+comando >> arquivo --> anexa saída padrão a um arquivo.
+comando < arquivo --> redireciona a entrada padrão de um arquivo .
+comando1 | comando2 --> canaliza a saída do comando1 para a entrada do comando2.
+cat arquivo1 arquivo2 > arquivo0 --> concatena arquivo1 e arquivo2 em arquivo0.
+sort --> ordena dados.
+who --> lista os usuários atualmente logados.
+ls -lag --> lista direitos de acesso para todos os arquivos.
+chmod [option] arquivos --> altera os direitos de acesso para o arquivo nomeado.
+comando & --> executa o comando em segundo plano.
+(ctrl)^C --> elimina o trabalho em execução em primeiro plano.
+(ctrl)^Z --> suspende o trabalho em execução em primeiro plano.
+bg --> retorna processos que estão suspensos.
+jobs --> lista processos suspensos e em segundo plano.
+fg%1 --> reinicia o primeiro processo suspenso.
+kill%1 --> encerra o primeiro processo suspenso.
+ps --> lista processos atuais. 
+kill 26152 --> encerra o processo de número 26152.
