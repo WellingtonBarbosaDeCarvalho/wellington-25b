@@ -78,3 +78,7 @@ fg%1 --> reinicia o primeiro processo suspenso.
 kill%1 --> encerra o primeiro processo suspenso.
 ps --> lista processos atuais. 
 kill 26152 --> encerra o processo de número 26152.
+
+
+#ls, mkdir, cd, pwd, cp, mv, rm, rmdir, clear, cat, less, head, tail, grep, wc, >, >>, |, sort, who, man, whatis, apropos, *, ?, chmod, ps, bg, kill, find, history.
+
