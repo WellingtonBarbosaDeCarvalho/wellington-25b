@@ -1,0 +1,48 @@
+O que vamos aprender?
+Na última aula você aprendeu que o Git e o GitHub podem te ajudar muito a trabalhar de maneira colaborativa 
+e distribuída. 🧩
+Hoje você aprenderá algumas técnicas para maximizar a eficiência desse trabalho em grupo, garantindo uma boa qualidade
+do software que você escreve! 😮
+
+Você será capaz de:
+Copiar um repositório já existente no GitHub para o seu computador;
+Abrir Pull Requests;
+Trabalhar em um mesmo projeto, com mais de uma pessoa, de forma assíncrona e distribuída.
+
+Por que isso é importante?
+Entender o conceito de Git é uma das habilidades fundamentais que você vai exercitar ao longo de todo o curso. 
+É fato que, por ser um conceito novo e diferente para você, será necessário muita prática para sedimentar esse conceito.
+É por isso que utilizamos diariamente o Git e o GitHub no curso, para que você tenha inúmeras chances de executar
+os comandos do Git, criar repositórios, fazer commits e contribuir com seus Pull Requests nos projetos.
+Somente colocando em prática diariamente os conceitos do Git você conseguirá se aperfeiçoar no uso de repositórios 
+e do versionamento de código! ✌️ 💪 👊
+
+
+//git clone urlDoSeuRepositórioTrybeExercises
+
+git clone serve para você copiar um repositório que esteja trabalhando ou colando. 
+você consegue baixar muito mais do que somente os arquivos atuais ele também te traz cada uma cadas versões(commits)
+desse repositório.
+
+Agora você já pode esquecer que um dia versionou os arquivos adicionando o nome da versão no final! 😉
+O Git é um sistema de versionamento distribuído (DVCS);
+A maior vantagem do Git é que ele é distribuído, ou seja, o repositório fica na sua máquina e você não precisa se preocupar em fazer "lock" de arquivos assim como em outros VCS's;
+Vimos que a instalação do Git e sua configuração são simples. Basta baixar o instalador e configurá-lo usando o comando git config;
+Para iniciar um repositório local, vimos que você tem duas opções:
+git init (para criar um novo repositório Git);
+git clone (para copiar um repositório Git existente para sua máquina e, assim, poder criar branches e Pull Requests).
+O GitHub é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git;
+Vimos também que, para subir seu código para o GitHub, basta você verificar qual das opções abaixo deseja:
+Criar um repositório do zero localmente, na sua máquina, onde utilizará o comando git init;
+Trabalhar num repositório já existente, onde utilizará o comando git clone;
+Esses dois comandos são excludentes, ou seja, você usa um, ou usa o outro, nunca os dois ao mesmo tempo. Após isso, siga um dos dois fluxos abaixo
+Fluxo 1 - Após git init:
+Criar seu primeiro commit;
+Criar o repositório remoto na sua conta do GitHub;
+Adicionar a URL do repositório remoto;
+Executar o famoso push.
+Fluxo 2 - Após git clone:
+Criar sua branch dentro do repositório clonado;
+Fazer checkout na sua branch;
+Criar seu primeiro commit;
+Executar o famoso push.
