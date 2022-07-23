@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(0, 0, 66);
+    color: white;
+    padding: 0px;
+    left: 0px;
+    text-align: center;
+}
+nav{
+    background-color: rgb(3, 3, 89);
+    border-radius: 8px;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(8, 8, 75);
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15px;
+}
+li{
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+article{
+    background-color: rgb(3, 3, 89);
+    border-radius: 9px;
+    font-size: 20px;
+    max-width: 100%;
+}
+.lista{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+.listaUl{
+    text-align: left;
+    padding-top: 85px;
+}
+.imagemStomatopoda{
+    width: 350px;
+    border-radius: 35%;
+}
+#stomatopodaDois{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+#artigo, #artigoDois{
+    max-width: 49%;
+    display: inline-block;
+    float: left;
+    font-family: monospace;
+}
+h2{
+    margin-bottom: 30px;
+}
+
+#artigoDois{
+    overflow: auto;
+    max-height: 645px;
+}
+#video{
+    margin-top: 700px;
+}
+footer{
+    background-color: rgb(8, 8, 75);
+    margin-top: 50px;
+    padding: 1px;
+    font-size: 10px;
+}
