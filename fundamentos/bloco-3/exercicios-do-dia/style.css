@@ -43,6 +43,7 @@ ul{
     margin-top: 101px;
     margin-bottom: 50px;
     line-height: 75px;
+    background-color: rgb(6, 6, 68);
 }
 li:nth-child(odd){
     color: rgb(234, 112, 5);
