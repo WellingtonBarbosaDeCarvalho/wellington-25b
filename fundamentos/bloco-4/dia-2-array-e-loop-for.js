@@ -104,15 +104,31 @@ let numbers = [54, 4, 34, 198, 70, 8, 100, 2, 354, 274];
 
 // Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado;
 
-let doZeroAoCem = [];
+// let doZeroAoCem = [];
 
-for(let i = 1; i <= 25; i+=1 ){
-    doZeroAoCem.push(i);
-}console.log(doZeroAoCem)
+// for(let i = 1; i <= 25; i+=1 ){
+//     doZeroAoCem.push(i);
+// }console.log(doZeroAoCem)
 
-// Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2.
-let zeroDivido = [];
+// // Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2.
+// let zeroDivido = [];
 
-for(let i = 0; i < doZeroAoCem.length; i += 1){
-    zeroDivido.push(doZeroAoCem[i]/2);
-}console.log(zeroDivido)
+// for(let i = 0; i < doZeroAoCem.length; i += 1){
+//     zeroDivido.push(doZeroAoCem[i]/2);
+// }
+// console.log(zeroDivido)
+
+// Bônus: aprendendo a usar o bouble, ainda nao peguei o jeito 
+// Ordene o array numbers em ordem crescente e imprima seus valores;
+// let auxiliar = 0;
+
+// for (let i = 1; i < numbers.length; i += 1){
+//     for(let indexDois = 0; indexDois < numbers.length; indexDois += 1){
+//             if(numbers[i] > numbers[indexDois]){
+//                 auxiliar = numbers[indexDois];
+//                 numbers[indexDois] = numbers[i];
+//                 numbers[i] = auxiliar[indexDois];
+//             }
+//     }
+//     console.log(numbers[i]);
+// }
