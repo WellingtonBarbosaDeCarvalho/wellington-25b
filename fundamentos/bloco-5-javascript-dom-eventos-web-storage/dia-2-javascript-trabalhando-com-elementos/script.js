@@ -68,13 +68,37 @@
        let selecT = document.querySelector('ul')
        let arr = ["Um","dois","três","quatro","cinco","seis","sete","oito","nove","deZ"];
     for(let index = 0; index < arr.length; index += 1){
-    let criaItem = arr[index];
-    let criaLi = document.createElement('li');
-    criaLi.innerText = criaItem;
-     selecT.appendChild(criaLi)
+        let criaItem = arr[index];
+        let criaLi = document.createElement('li');
+        criaLi.innerText = criaItem;
+    selecT.appendChild(criaLi)
 
     // console.log(criaLi)
     }
 }
     criaUl()
 
+    // Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
+
+    function criah3(){
+        const encontraH3 = document.querySelector('.main-content');
+    const criaH3 = document.createElement('h3')
+    let incrementoH3 = encontraH3.appendChild(criaH3);
+    incrementoH3.innerText="Primeiro titulo";
+    incrementoH3.classList.add('primeiro-titulo');
+        const criah3Dois = document.querySelector('.main-content');
+    const vamosLa = document.createElement('h3');
+    let incrementaDois = criah3Dois.appendChild(vamosLa)
+    incrementaDois.innerText="Segundo titulo";
+    incrementaDois.classList.add('segundo-titulo')
+        const encontraH3Tres = document.querySelector('.main-content');
+    const criaH3Tres = document.createElement('h3');
+    let incrementaTres = encontraH3Tres.appendChild(criaH3Tres);
+    incrementaTres.innerText="Terceiro Titulo";
+    }
+    criah3()
+
+
+
+  
+    
